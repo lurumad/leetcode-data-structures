@@ -177,7 +177,7 @@ if __name__ == '__main__':
     print(find_winners([[1, 3], [2, 3], [3, 6], [5, 6], [5, 7], [4, 5], [4, 8], [4, 9], [10, 4], [10, 9]]))
     print(largest_unique_number([5, 7, 3, 9, 4, 9, 8, 3, 1]))
     print(max_number_of_balloons("loonbalxballpoon"))
-    print(find_max_length([0,1,0,1,1,1,0,0,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,0,0,0,1,0,1,0,0,1,0,1,1,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,0,1,0,0,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,1,1,0,0,0,0,0,0,1,0,1,0,1,1,0,0,1,1,0,1,1,1,1,0,1,1,0,0,0,1,1]))
+    print(find_max_length([0,1,0]))
     print(string_anagram(["heater", "cold", "clod", "reheat", "docl"], ["codl", "heater", "abcd"]))
     print(longest_subarray([0, 1, 2, 1, 2, 3]))
     print(longest_subarray([0, 1, 2, 1, 2, 3, 2, 3, 2, 3]))
