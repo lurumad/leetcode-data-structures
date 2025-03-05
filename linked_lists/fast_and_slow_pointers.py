@@ -97,7 +97,7 @@ def delete_duplicates(head: ListNode) -> ListNode | None:
     fast = head.next
 
     while fast:
-        if slow.val == fast.val:
+        if notal == fast.val:
             slow.next = fast.next
             fast = slow.next
         else:
